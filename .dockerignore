@@ -1,0 +1,37 @@
+# Virtual Environment
+venv/
+.venv/
+env/
+ENV/
+
+# Secrets and environment variables (Never bake secrets into images)
+.env
+.env.*
+!.env.example
+
+# Local Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Git metadata
+.git/
+.gitignore
+
+# Python cache & compiled bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Editor & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Documentation & Misc
+README.md
+
